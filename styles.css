@@ -1,0 +1,67 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f9f5ec; /* Light background color */
+}
+
+.pricing-table {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+.pricing-plan {
+  background-color: #f3d89f; /* Golden color background */
+  padding: 20px;
+  text-align: center;
+  margin: 20px;
+  flex-grow: 1;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.pricing-plan:hover {
+  transform: scale(1.05); /* Scale up on hover */
+}
+
+.price {
+  font-size: 24px;
+  margin: 10px 0;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 5px 0;
+}
+
+.buy-button {
+  background-color: #e67e22; /* Darker orange button color */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.buy-button:hover {
+  background-color: #d35400; /* Darker orange on hover */
+}
+
+/* New styles for yearly billing */
+.yearly-billing {
+  font-size: 14px;s
+  color: #777; /* Light gray text color */
+  margin-top: 10px;
+}
